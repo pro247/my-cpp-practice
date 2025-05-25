@@ -8,16 +8,17 @@ the calculator will call the function that is meant for that and display the res
 #include <iomanip>
 using namespace std;
 
+// functional prototypes
+
+double addition(double, double);
+double subtraction(double, double);
+double multiplictaion(double, double);
+double division(double, double);
+double sine(double);
+double cosine(double);
+double tangent(double);
 int main()
 {
-    // functional declaration
-    double addition(double num1, double num2);
-    double subtraction(double num1, double num2);
-    double multiplictaion(double num1, double num2);
-    double division(double num1, double num2);
-    double sine(double angle);
-    double cosine(double angle);
-    double tangent(double angle);
 
     // declaring the variables
     double num1, num2, angle, result = 0.0;
